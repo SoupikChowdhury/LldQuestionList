@@ -1,8 +1,8 @@
 package CommonEnum;
 
-public class InventoryOperation {
+public enum InventoryOperation {
     ADD,
-    REMOVE
+    REMOVE,
     TRANSFER,
     ADJUST
-};
+}
